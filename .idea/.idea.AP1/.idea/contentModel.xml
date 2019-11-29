@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.0.3.1/proguard" t="Include">
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.arch.lifecycle.runtime\1.0.3.1\proguard" t="Include">
       <e p="proguard.txt" t="Include" />
     </e>
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.animated.vector.drawable/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.core.ui/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.design/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.media.compat/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.transition/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xamarin.android.support.v7.recyclerview/27.0.2.1/proguard/proguard.txt" t="Include" />
-    <e p="$USER_HOME$/Library/Android/sdk/platforms/android-28/data/res" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Android/sdk/sources/android-28" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_AP1.948205341.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="AP1/AP1" t="IncludeRecursive">
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.support.animated.vector.drawable\27.0.2.1\proguard\proguard.txt" t="Include" />
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.support.core.ui\27.0.2.1\proguard\proguard.txt" t="Include" />
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.support.design\27.0.2.1\proguard\proguard.txt" t="Include" />
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.support.media.compat\27.0.2.1\proguard\proguard.txt" t="Include" />
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.support.transition\27.0.2.1\proguard\proguard.txt" t="Include" />
+    <e p="C:\Users\Jacob Nielsen\.nuget\packages\xamarin.android.support.v7.recyclerview\27.0.2.1\proguard\proguard.txt" t="Include" />
+    <e p="C:\Users\Jacob Nielsen\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Jacob Nielsen\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jacob Nielsen\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_AP1.1675378782.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Jacob Nielsen\AppData\local\Android\sdk\platforms\android-28\data\res" t="IncludeRecursive" />
+    <e p="C:\Users\Jacob Nielsen\AppData\local\Android\sdk\sources\android-28" t="IncludeRecursive" />
+    <e p="D:\dev\HF4-AP1" t="IncludeFlat">
+      <e p="AP1\AP1" t="IncludeRecursive">
         <e p="AP1.csproj" t="IncludeRecursive" />
-        <e p="App.xaml" t="Include" />
-        <e p="App.xaml.cs" t="Include" />
+        <e p="App.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="MainPage.xaml" t="Include" />
-        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="data" t="Include">
+          <e p="TodoItemDatabase.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="TodoItem.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -29,8 +33,16 @@
             </e>
           </e>
         </e>
+        <e p="Views" t="Include">
+          <e p="TodoItemPage.xaml" t="Include" />
+          <e p="TodoItemPage.xaml.cs" t="Include" />
+          <e p="TodoItemPageCS.cs" t="Include" />
+          <e p="TodoListPage.xaml" t="Include" />
+          <e p="TodoListPage.xaml.cs" t="Include" />
+          <e p="TodoListPageCS.cs" t="Include" />
+        </e>
       </e>
-      <e p="AP1/AP1.Android" t="IncludeRecursive">
+      <e p="AP1\AP1.Android" t="IncludeRecursive">
         <e p="AP1.Android.csproj" t="IncludeRecursive" />
         <e p="Assets" t="Include">
           <e p="AboutAssets.txt" t="Include" />
@@ -44,9 +56,18 @@
         </e>
         <e p="Resources" t="Include">
           <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include">
+            <e p="check.png" t="Include" />
+            <e p="check2x.png" t="Include" />
+            <e p="Icon.png" t="Include" />
+            <e p="plus.png" t="Include" />
+          </e>
           <e p="layout" t="Include">
             <e p="Tabbar.axml" t="Include" />
             <e p="Toolbar.axml" t="Include" />
+          </e>
+          <e p="raw" t="Include">
+            <e p="TodoSQLite.db3" t="Include" />
           </e>
           <e p="Resource.Designer.cs" t="Include" />
           <e p="values" t="Include">
@@ -55,7 +76,7 @@
           </e>
         </e>
       </e>
-      <e p="AP1/AP1.iOS" t="IncludeRecursive">
+      <e p="AP1\AP1.iOS" t="IncludeRecursive">
         <e p="AP1.iOS.csproj" t="IncludeRecursive" />
         <e p="AppDelegate.cs" t="Include" />
         <e p="Assets.xcassets" t="Include">
